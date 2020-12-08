@@ -6,6 +6,8 @@ def join_nested_strings(src)
     for t in 0..(src[i].length - 1)
       if src[i][t].is_a? String
         sentence += src[i][t]
+        sentence += " "
+        
       end
     end
   end
