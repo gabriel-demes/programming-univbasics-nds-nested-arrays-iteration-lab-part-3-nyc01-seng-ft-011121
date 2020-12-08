@@ -4,10 +4,10 @@ def join_nested_strings(src)
   sentence = ""
   for i in 0.. (src.length - 1)
     for t in 0..(src[i].length - 1)
-      if src[i][t].is_a? String 
+      if src[i][t].is_a? String
         sentence += src[i][t]
       end
     end
   end
-        
+
 end
