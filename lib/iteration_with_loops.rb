@@ -7,7 +7,7 @@ def join_nested_strings(src)
       if src[i][t].is_a? String
         sentence += src[i][t]
         sentence += " "
-        
+
       end
     end
   end
